@@ -1,0 +1,33 @@
+************* Module gym_membership_system
+original/gym_membership_system.py:82:0: C0304: Final newline missing (missing-final-newline)
+original/gym_membership_system.py:15:0: C0116: Missing function or method docstring (missing-function-docstring)
+original/gym_membership_system.py:15:0: C0103: Function name "registerMember" doesn't conform to snake_case naming style (invalid-name)
+original/gym_membership_system.py:15:0: W0102: Dangerous default value [] as argument (dangerous-default-value)
+original/gym_membership_system.py:19:22: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+original/gym_membership_system.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+original/gym_membership_system.py:23:0: C0103: Function name "cancelMembership" doesn't conform to snake_case naming style (invalid-name)
+original/gym_membership_system.py:26:4: W0702: No exception type(s) specified (bare-except)
+original/gym_membership_system.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+original/gym_membership_system.py:30:0: C0103: Function name "checkMembershipStatus" doesn't conform to snake_case naming style (invalid-name)
+original/gym_membership_system.py:32:7: C0121: Comparison 'members.get(m_id) == None' should be 'members.get(m_id) is None' (singleton-comparison)
+original/gym_membership_system.py:34:4: R1703: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+original/gym_membership_system.py:34:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+original/gym_membership_system.py:31:4: W0612: Unused variable 'locker_deposit' (unused-variable)
+original/gym_membership_system.py:40:0: C0116: Missing function or method docstring (missing-function-docstring)
+original/gym_membership_system.py:40:0: C0103: Function name "calculateRenewalRate" doesn't conform to snake_case naming style (invalid-name)
+original/gym_membership_system.py:42:17: W0123: Use of eval (eval-used)
+original/gym_membership_system.py:41:4: W0612: Unused variable 'base_fee' (unused-variable)
+original/gym_membership_system.py:46:0: C0116: Missing function or method docstring (missing-function-docstring)
+original/gym_membership_system.py:50:0: C0116: Missing function or method docstring (missing-function-docstring)
+original/gym_membership_system.py:54:0: C0116: Missing function or method docstring (missing-function-docstring)
+original/gym_membership_system.py:55:8: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+original/gym_membership_system.py:55:8: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+original/gym_membership_system.py:61:0: C0116: Missing function or method docstring (missing-function-docstring)
+original/gym_membership_system.py:61:23: W0621: Redefining name 'members' from outer scope (line 8) (redefined-outer-name)
+original/gym_membership_system.py:63:8: W0612: Unused variable 'm' (unused-variable)
+original/gym_membership_system.py:69:0: C0116: Missing function or method docstring (missing-function-docstring)
+original/gym_membership_system.py:6:0: W0611: Unused import math (unused-import)
+
+-----------------------------------
+Your code has been rated at 4.81/10
+
