@@ -1,6 +1,0 @@
-Is M01 active: True
-Renewal Fee: 510.0
-Member Hash: d968fce424f6218db2d2f8e1f407ff35150aebc0ecb10b29718d0db4359b05e3
-Locker PIN: 1350
-Roster exported to: gym_roster.txt
-Active count: 3

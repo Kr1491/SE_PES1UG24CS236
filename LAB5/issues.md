@@ -4,7 +4,7 @@
 **SRN:** PES1UG24CS236  
 **Assigned program:** Gym Membership System (assignment 48, spreadsheet row 49)
 
-Line numbers below refer to the unchanged `original/gym_membership_system.py`.
+Line numbers below refer to the original assigned script before fixes.
 Bandit severity is reproduced exactly. For Pylint/Flake8 findings, priorities
 are review judgments, since these tools do not assign Bandit's severity levels.
 
@@ -37,12 +37,12 @@ are review judgments, since these tools do not assign Bandit's severity levels.
 | Flake8 | 9 findings | 0 findings |
 | Regression tests | No supplied test suite | 10 tests pass |
 
-Reports in `reports/before/` analyze the preserved original. Reports in
+Reports in `reports/before/` analyze the original assigned script. Reports in
 `reports/after/` analyze only the cleaned application, using the same default
 tool rules. No warnings were disabled, no `nosec` markers were added, and no
 line-length limits were relaxed. Pylint uses `--persistent=n` only to avoid
 writing its cache outside the project. The empty final Flake8 file means no
-findings; `verification.json` records its successful exit code.
+findings. All final tool runs completed successfully before submission cleanup.
 
 Normal demo behavior is retained: M04 registers, M02 is cancelled, M01 is
 active, renewal costs 510.0, the roster is exported, and the active count is 3.

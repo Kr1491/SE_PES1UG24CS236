@@ -1,7 +1,0 @@
-Roster exported to: gym_roster.txt
-Is M01 active: True
-Renewal Fee: 510.0
-Member Hash: 9d442eeb170e62765efa683c5b827bbc
-Locker PIN: 4704
-Active count: 3
-Portal secret: GYM_CLOUD_PORTAL_SECRET_2026
