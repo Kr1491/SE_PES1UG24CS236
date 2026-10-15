@@ -1,0 +1,15 @@
+test_cancel_existing_and_missing_member (test_gym_membership_system.MembershipTests.test_cancel_existing_and_missing_member) ... ok
+test_default_logging_does_not_leak_between_calls (test_gym_membership_system.MembershipTests.test_default_logging_does_not_leak_between_calls) ... ok
+test_demo_still_works_without_exposing_secret (test_gym_membership_system.MembershipTests.test_demo_still_works_without_exposing_secret) ... ok
+test_discount_bounds_and_missing_member (test_gym_membership_system.MembershipTests.test_discount_bounds_and_missing_member) ... ok
+test_export_treats_shell_metacharacters_as_filename (test_gym_membership_system.MembershipTests.test_export_treats_shell_metacharacters_as_filename) ... ok
+test_expression_input_is_rejected_without_execution (test_gym_membership_system.MembershipTests.test_expression_input_is_rejected_without_execution) ... ok
+test_hash_and_pin (test_gym_membership_system.MembershipTests.test_hash_and_pin) ... ok
+test_import_has_no_demo_side_effects (test_gym_membership_system.MembershipTests.test_import_has_no_demo_side_effects) ... ok
+test_registration_and_caller_log (test_gym_membership_system.MembershipTests.test_registration_and_caller_log) ... ok
+test_status_and_active_count (test_gym_membership_system.MembershipTests.test_status_and_active_count) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.020s
+
+OK

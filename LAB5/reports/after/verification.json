@@ -1,0 +1,16 @@
+{
+  "python": "3.14.4 (main, Apr  7 2026, 13:13:20) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "versions": {
+    "pylint": "4.1.3",
+    "bandit": "1.9.4",
+    "flake8": "7.4.1"
+  },
+  "exit_codes": {
+    "pylint_report.txt": 0,
+    "bandit_report.txt": 0,
+    "flake8_report.txt": 0,
+    "tests.txt": 0,
+    "program_output.txt": 0
+  },
+  "scope": "gym_membership_system.py; original snapshot excluded"
+}

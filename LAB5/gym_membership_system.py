@@ -5,8 +5,12 @@ import secrets
 
 members = {
     "M01": {"name": "Alex", "plan": "Gold", "months_left": 6, "fee": 600.0},
-    "M02": {"name": "Brooke", "plan": "Silver", "months_left": 1, "fee": 350.0},
-    "M03": {"name": "Chris", "plan": "Platinum", "months_left": 12, "fee": 1000.0},
+    "M02": {
+        "name": "Brooke", "plan": "Silver", "months_left": 1, "fee": 350.0
+    },
+    "M03": {
+        "name": "Chris", "plan": "Platinum", "months_left": 12, "fee": 1000.0
+    },
 }
 
 
@@ -14,7 +18,10 @@ def register_member(m_id, name, plan, months, member_log=None):
     """Register a new member; append to the supplied log when provided."""
     if m_id in members or months <= 0:
         return False
-    members[m_id] = {"name": name, "plan": plan, "months_left": months, "fee": 50.0 * months}
+    members[m_id] = {
+        "name": name, "plan": plan,
+        "months_left": months, "fee": 50.0 * months,
+    }
     if member_log is None:
         member_log = []
     member_log.append(f"Registered {m_id} for {months} months")
@@ -30,7 +37,6 @@ def check_membership_status(m_id):
     """Return whether a known member has time left on their plan."""
     member = members.get(m_id)
     return member is not None and member["months_left"] > 0
-
 
 
 def calculate_renewal_rate(m_id, discount_rate):
@@ -57,11 +63,9 @@ def export_member_roster(filename="gym_roster.txt"):
     print(f"Roster exported to: {filename}")
 
 
-
 def get_active_summary(roster):
     """Count members whose plans have time remaining."""
     return sum(details["months_left"] > 0 for details in roster.values())
-
 
 
 def main():
